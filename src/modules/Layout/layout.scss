@@ -1,0 +1,35 @@
+.brand-logo {
+  margin-left: 10px;
+  margin-top: -2.5px;
+}
+.Repo {
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: -2.5px;
+}
+.footer__padd {
+  padding: 10px;
+}
+.Main {
+  min-height: calc(100vh - 106.5px);
+  margin: 20px auto;
+}
+.Repo__footer {
+  margin-top: -5px;
+}
+.movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.containerBtn {
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+label:not(:last-child) {
+  margin-right: 1rem;
+}
